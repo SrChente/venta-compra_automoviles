@@ -22,3 +22,5 @@ ON Venta(fecha_venta);
 
 CREATE INDEX idx_auto_marca_modelo
 ON Automovil(marca,modelo);
+
+COMMIT;
